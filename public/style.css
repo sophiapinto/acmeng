@@ -179,46 +179,19 @@ textarea{
     margin: auto auto -300px auto;
     -webkit-box-pack: center;
     justify-content: center;
+    overflow: hidden;
     
 }
 
 .carousel{
     position:relative;
-    width:50%;
+    width:100%;
     height:80%;
     perspective: 100%;
     transform-style:preserve-3d;
     -webkit-animation:rotate360 60s infinite forwards linear;
     animation:rotate360 60s infinite forwards linear
 }
-
-@media only screen and (max-width: 56.25em){
-    .carousel__face{
-
-        position:absolute;
-        width: 450px;
-        height:180px;
-        background-size:cover;
-        display:flex;
-        max-width: 300px;
-        max-height: 300px;
-    }
-
-}
-
-@media only screen and (max-width: 37.5em){
-    .carousel__face{
-
-        position:absolute;
-        width: 350px;
-        height:80px;
-        background-size:cover;
-        display:flex;
-        max-width: 300px;
-        max-height: 300px;
-    }
-}    
-
 
 .carousel__face{
 
@@ -229,6 +202,7 @@ textarea{
     display:flex;
     max-width: 300px;
     max-height: 300px;
+    object-fit: cover;
 }
 
 .carousel__face:nth-child(1){
