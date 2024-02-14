@@ -1,28 +1,77 @@
-# Site oficial da ACM Engenharia Civil
+<p align="center">
 
-## Desenvolvedora
+  <h3 align="center">Site oficial da ACM Engenharia Civil</h3>
 
-- [Sophia Pinto](https://github.com/sophiapinto)
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Lincense&message=MIT&color=0000ff " alt="License" />
+</p>
 
-## 🚀 Tecnologias
+<p align="center">
+    Projeto desenvolvido para empresa do ramo da Engenharia Civil.
+    <br />
+  </p>
+</p>
 
-- **HTML** 🚀
-- **CSS** 🚀
-- **JavaScript** 🚀
-- **SASS** 🚀
+## :book: Sobre o projeto
+
+Proposta a criação de um projeto utilizando SCSS e Node.js em REST que apresenta-se:  
+
+  - [x] Responsável técnico
+  - [x] Projetos realizados
+  - [x] Formulário de contato
+
+Você pode ver a demo do projeto [aqui](https://acmengenhariacivil.com.br).
 
 
-## ✋🏻 Pré-requisitos
+## :bricks: Instalação
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+Este projeto usa [Node.js](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com), você precisará deles para instalar as dependências.
 
-## 🔥 Instalação e execução
+### :construction: Pré-requisitos
 
-1. Rode `npm run compile:scss`
+Clone este repositório:
 
-## 📝 Licença
+```bash
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+$ git clone https://github.com/sophiapinto/acmeng.git
 
-Feito com 💖 by  e Sophia Pinto
+# Entre na pasta `acmeng`:
+
+$ cd acmeng
+```
+
+🚨 Se você não possui git instalado em sua máquina, você pode instalá-lo [aqui](https://git-scm.com/downloads).
+
+### :construction: Instalando dependências
+
+Na pasta acmeng, instale as dependências pelo seguinte comando:
+
+```bash
+$ yarn install
+```
+
+### :arrow_forward: Rodando o Projeto
+
+Rode os seguintes comando:
+
+```bash
+
+# Para o servidor
+
+$ yarn compile:scss
+
+```
+
+Depois de executar yarn compile:scss, abra o index.html dentro do seu navegador favorito ou usando a extensão do servidor ativo.
+
+## :page_facing_up: Licença
+
+Este projeto usa a licença [MIT](https://github.com/3salles/user-crud/blob/main/LICENSE).
+
+## :woman_technologist: :man_technologist: Autoria
+
+[Sophia Pinto](https://github.com/sophiapinto)
+
+<p align="center">Developed with 💜 </p>
+
+
